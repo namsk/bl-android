@@ -1,0 +1,43 @@
+//  Volley api gradle dependency
+compile 'com.android.volley:volley:1.1.0'
+
+//  google gson gradle dependency
+compile 'com.google.code.gson:gson:2.8.2'
+
+//  Volley API: JsonBojectRequest 
+JsonObjectRequest request = new JsonObjectRequest(
+                Request.Method.GET, //  Request Method
+                url,    //  Server URL
+                null,   //  Json Request
+                new Response.Listener<JSONObject>() {   //  Response Handler
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        Log.d("[Response]", response.toString());
+                        
+                    }
+                },
+                new Response.ErrorListener() {  //  Error Handler
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+
+                    }
+                });
+
+//  Volley API: ImageRequest
+ImageRequest request = new ImageRequest(imageUrl,   //  Server URL
+                    new Response.Listener<Bitmap>() {   //  Response Handler
+                        @Override
+                        public void onResponse(Bitmap response) {
+                            
+                        }
+                    },
+                    0,  //  maxWidth
+                    0,  //  maxHeight
+                    ImageView.ScaleType.CENTER_INSIDE,  //  Image ScaleType
+                    Bitmap.Config.RGB_565,  //  Bitmap Mode
+                    new Response.ErrorListener() {  //  Error Handler
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
+
+                        }
+                    });

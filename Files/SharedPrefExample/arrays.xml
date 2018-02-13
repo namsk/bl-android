@@ -1,0 +1,14 @@
+<resources>
+    <string-array name="lists">
+        <item>IceCreamSandwich</item>
+        <item>Kikat</item>
+        <item>JellyBean</item>
+        <item>LolliPop</item>
+        <item>Marshmallow</item>
+        <item>Nougat</item>
+        <item>Oreo</item>
+    </string-array>
+    <string-array name="empty">
+
+    </string-array>
+</resources>
