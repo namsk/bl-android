@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/messageDialog"
+        android:text="단순 메세지 대화상자"
+        android:onClick="dialogMessage"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/closeButtonDialog"
+        android:text="Close 버튼 대화상자"
+        android:onClick="dialogCloseButton"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/okCancelButtonDialog"
+        android:text="OK Cancel 버튼 Dialog"
+        android:onClick="dialogOKCancelButton"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/listDialog"
+        android:text="List 항목 대화상자"
+        android:onClick="dialogList"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/progressDialog"
+        android:text="Progress 대화상자"
+        android:onClick="dialogProgress"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/singleChoiceDialog"
+        android:text="Single Choice 대화상자"
+        android:onClick="dialogSingleChoice"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/multiChoiceDialog"
+        android:text="Multiple Choice Dialog"
+        android:onClick="dialogMultipleChoice"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/customLayoutDialo"
+        android:text="Custom Content Layout Dialog"
+        android:onClick="dialogCustomLayout"/>
+
+</LinearLayout>
