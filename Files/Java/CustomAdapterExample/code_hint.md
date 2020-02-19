@@ -1,5 +1,6 @@
 //  데이터의 추가
 
+```java
 ArrayList<MovieVO> data = new ArrayList<>();
 MovieVO movie = new MovieVO();
 movie.image = R.drawable.toystory;
@@ -28,3 +29,4 @@ movie.title = "토이스토리 4";
 movie.year = "2018";
 
 data.add(movie);
+```
