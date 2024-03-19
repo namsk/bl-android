@@ -1,5 +1,5 @@
 <resources>
-    <string-array name="android_list">
+    <string-array name="lists">
         <item>IceCreamSandwich</item>
         <item>Kikat</item>
         <item>JellyBean</item>
@@ -7,6 +7,8 @@
         <item>Marshmallow</item>
         <item>Nougat</item>
         <item>Oreo</item>
-        <item>Pie</item>
+    </string-array>
+    <string-array name="empty">
+
     </string-array>
 </resources>
